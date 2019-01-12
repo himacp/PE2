@@ -1,9 +1,4 @@
-/* Hima C P
- *
- * Stack Route,Bangalore
- *
- * Boeing India Pvt Ltd.
- */
+package com.stackroute.wave4;
 
 
 import java.util.Scanner;

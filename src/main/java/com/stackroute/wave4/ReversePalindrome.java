@@ -1,19 +1,7 @@
-/* Hima C P
- *
- * Stack Route,Bangalore
- *
- * Boeing India Pvt Ltd.
- */
+package com.stackroute.wave4;
 
 
-import java.util.Scanner;
-
-public class ReversePalindrome {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String string = scan.nextLine();
-        System.out.println(function(string));
-    }
+public class ReversePalindrome{
 
     public static String function(String s){
             String reverse = "";

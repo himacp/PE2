@@ -1,28 +1,6 @@
-/* Hima C P
- *
- * Stack Route,Bangalore
- *
- * Boeing India Pvt Ltd.
- */
-
-
-import java.util.Scanner;
+package com.stackroute.wave4;
 
 public class StudentAverage {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int length = scan.nextInt();
-        int[] array = new int[length];
-        for (int i = 0; i < length; i++) {
-            array[i] = scan.nextInt();
-
-        }
-        System.out.println(studentMin(4, array));
-        System.out.println(studentMax(4, array));
-        System.out.println(studentAvg(4, array));
-    }
-
-
     public static int studentMin(int length,int[] a){
         int     min = a[0];
         for(int i=0;i<length;i++)
