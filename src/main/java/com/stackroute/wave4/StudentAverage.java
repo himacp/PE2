@@ -1,5 +1,9 @@
 package com.stackroute.wave4;
 
+/* Program, which reads number of students and n grades as input (of int between 0 and 100, inclusive) and displays
+the average, minimum and maximum.Your program shall check for valid input.*/
+
+
 public class StudentAverage {
     public static int studentMin(int length,int[] a){
         int     min = a[0];

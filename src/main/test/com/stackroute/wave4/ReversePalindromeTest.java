@@ -35,6 +35,15 @@ public class ReversePalindromeTest
         //Assert
         assertEquals(expectedValue, actualValue);
     }
+
+    @Test
+    public void palindromeTestStringNull()
+    {
+        String expectedValue = "Not a palindrome";
+        String actualValue = obj.function("/0");
+        //Assert
+        assertEquals(expectedValue, actualValue);
+    }
     @After
     public void tearDown() throws Exception {
 
